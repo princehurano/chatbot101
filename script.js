@@ -32,6 +32,10 @@ const keywordResponses = {
         keywords: ['pangutana', 'mangutana'],
         response: "Unsa man?"
     },
+     students: {
+        keywords: ['students', 'estudyante'],
+        response: "Didto k4h Mangut4na sa porpis dol,,, ay4w kog Gara garae dol.,, ego ka ani Akung kinumo henuktok jod kaH...."
+    },
     about: {
         keywords: ['about', 'About'],
         response: `This is a DESIGN AND DEVELOPMENT OF A KEYWORD-BASED CHATBOT FOR SCHOOL INQUIRIES.
