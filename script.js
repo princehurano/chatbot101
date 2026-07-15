@@ -10,7 +10,7 @@ const keywordResponses = {
     },
     tuition: {
         keywords: ['tuition', 'fees', 'cost', 'price', 'pay', 'payment'],
-        response: 'Tuition fees for this academic year are: Elementary - $5,000, Middle School - $6,500, High School - $8,000. Payment plans and financial aid options are available. Would you like information about payment methods?'
+        response: 'Dipindi saimong budget'
     },
     schedule: {
         keywords: ['schedule', 'class', 'timetable', 'timing', 'hours', 'time'],
