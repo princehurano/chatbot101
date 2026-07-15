@@ -10,7 +10,7 @@ const keywordResponses = {
     },
     tuition: {
         keywords: ['tuition', 'fees', 'cost', 'price', 'pay', 'payment'],
-        response: 'Dipindi saimong budget'
+        response: "Dipindi saimong budget"
     },
     schedule: {
         keywords: ['schedule', 'class', 'timetable', 'timing', 'hours', 'time'],
