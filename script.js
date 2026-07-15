@@ -28,6 +28,10 @@ const keywordResponses = {
         keywords: ['ethan', 'prince', 'lloyd', 'fritz', 'bea', 'dirk'],
         response: "HOAYYYYYYYYYYYYYY! PAPWET YARN?"
     },
+     pangutana: {
+        keywords: ['pangutana', 'mangutana'],
+        response: "Unsa man?"
+    },
     about: {
         keywords: ['about', 'About'],
         response: `This is a DESIGN AND DEVELOPMENT OF A KEYWORD-BASED CHATBOT FOR SCHOOL INQUIRIES.
