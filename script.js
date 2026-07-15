@@ -384,7 +384,7 @@ window.addEventListener('load', () => {
 
 // Welcome Message 
 window.addEventListener('load', () => {
-    const welcomeText = 'Hi Groupmates, kapoy na kayo hahahahahaha';
+    const welcomeText = 'Unsay tuyo nimo dawg?';
 
     const typingDiv = showTypingIndicator();
 
