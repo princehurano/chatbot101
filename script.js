@@ -12,6 +12,10 @@ const keywordResponses = {
         keywords: ['tuition', 'fees', 'cost', 'price', 'pay', 'payment'],
         response: "Dipindi saimong budget"
     },
+    school: {
+        keywords: ['school', 'lourdes', 'lourdes college'],
+        response: "Lourdes College, Inc. is a prominent Catholic educational institution in Cagayan de Oro City, Philippines. Founded in 1928, it is managed by the Religious of the Virgin Mary (RVM) and offers programs ranging from preschool to graduate school. The institution is heavily anchored in Ignacian-Marian values, with a strong focus on Faith, Excellence, and Service."
+    },
     schedule: {
         keywords: ['schedule', 'class', 'timetable', 'timing', 'hours', 'time'],
         response: 'School hours are 8:00 AM to 5 PM, Monday through Friday. Classes run in 45-minute periods with a 30-minute lunch break at noon. Special schedules apply on Fridays when early dismissal is at 2:40 PM. Any other scheduling questions?'
@@ -37,7 +41,7 @@ const keywordResponses = {
         response: "Didto k4h Mangut4na sa porpis dol,,, ay4w kog Gara garae dol.,, ego ka ani Akung kinumo henuktok jod kaH...."
     },
     about: {
-        keywords: ['about', 'About', 'what can you do', 'what is this', 'purpose'],
+        keywords: ['about', 'About'],
         response: `This is a DESIGN AND DEVELOPMENT OF A KEYWORD-BASED CHATBOT FOR SCHOOL INQUIRIES.
         
         Mao ni nga problems akong nakita that's why I think of this 
