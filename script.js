@@ -260,16 +260,31 @@ function getBotResponse(userText) {
     // gina auto lowercase ang text para mag match sa keyword categorized
     const lowerText = userText.toLowerCase();
 
-    // Tig check sa each keyword sa category
+    let bestCategory = null;
+    let bestScore = 0;
+
+    // Tig check sa tanan categories, dili lang mo-stop sa una nga match.
+    // Ing-ani ma-solve ang overlap sa keywords (e.g. "document" nga naa
+    // sa registrar ug requirements pareha) — ang category nga pinaka daghan
+    // ug match nga keyword ang mo-daog.
     for (const category in keywordResponses) {
         const data = keywordResponses[category];
+        let score = 0;
 
-        // Pang check sa keyword category if naa ba sa gi input sa user 
         for (const keyword of data.keywords) {
-            if (lowerText.includes(keyword)) {
-                return data.response;
+            if (lowerText.includes(keyword.toLowerCase())) {
+                score++;
             }
         }
+
+        if (score > bestScore) {
+            bestScore = score;
+            bestCategory = category;
+        }
+    }
+
+    if (bestCategory) {
+        return keywordResponses[bestCategory].response;
     }
 
     // Automatic or default nga chat once dili sha aligned sa keywords nga gi-program
