@@ -271,8 +271,14 @@ function getBotResponse(userText) {
         const data = keywordResponses[category];
         let score = 0;
 
-        for (const keyword of data.keywords) {
-            if (lowerText.includes(keyword.toLowerCase())) {
+        // Set() removes duplicate keywords first — so a category that
+        // accidentally lists the same word twice (like 'about' and 'About',
+        // which become identical once lowercased) doesn't get an unfair
+        // score boost from counting the same match twice.
+        const uniqueKeywords = new Set(data.keywords.map(k => k.toLowerCase()));
+
+        for (const keyword of uniqueKeywords) {
+            if (lowerText.includes(keyword)) {
                 score++;
             }
         }
