@@ -37,7 +37,7 @@ const keywordResponses = {
         response: "Didto k4h Mangut4na sa porpis dol,,, ay4w kog Gara garae dol.,, ego ka ani Akung kinumo henuktok jod kaH...."
     },
     about: {
-        keywords: ['about', 'About'],
+        keywords: ['about', 'About', 'what can you do', 'what is this', 'purpose'],
         response: `This is a DESIGN AND DEVELOPMENT OF A KEYWORD-BASED CHATBOT FOR SCHOOL INQUIRIES.
         
         Mao ni nga problems akong nakita that's why I think of this 
