@@ -78,7 +78,7 @@ Problem 4: There is no centralized, automated inquiry system that provides immed
 5.) Expand our educational thrust for the poor.`
     },
     contact: {
-        keywords: ['contact', 'phone', 'email', 'address', 'office', 'call', 'reach', 'message'],
+        keywords: ['contact', 'phone', 'email', 'address', 'office', 'call', 'reach', 'message', 'located', 'locate'],
         response: 'School Contact Information:\n📍 Address: Capistrano St, Cagayan De Oro City, 9000\n📞 Phone: +63 (977) 108 7317\n📧 Email: lc@lccdo.edu.ph Office Hours: Monday to Friday 8:00 AM to 5PM - Saturday 8AM - 12NN'
     }
 };
