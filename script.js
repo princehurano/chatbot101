@@ -13,7 +13,7 @@ const keywordResponses = {
         response: "Dipindi saimong budget"
     },
     school: {
-        keywords: ['school', 'lourdes', 'lourdes college'],
+        keywords: ['about the school', 'about lourdes', 'lourdes college', 'lourdes'],
         response: "Lourdes College, Inc. is a prominent Catholic educational institution in Cagayan de Oro City, Philippines. Founded in 1928, it is managed by the Religious of the Virgin Mary (RVM) and offers programs ranging from preschool to graduate school. The institution is heavily anchored in Ignacian-Marian values, with a strong focus on Faith, Excellence, and Service."
     },
     schedule: {
@@ -78,7 +78,7 @@ Problem 4: There is no centralized, automated inquiry system that provides immed
 5.) Expand our educational thrust for the poor.`
     },
     contact: {
-        keywords: ['contact', 'phone', 'email', 'address', 'office', 'call', 'reach', 'message', 'located', 'locate'],
+        keywords: ['contact', 'phone', 'email', 'address', 'office', 'call', 'reach', 'message'],
         response: 'School Contact Information:\n📍 Address: Capistrano St, Cagayan De Oro City, 9000\n📞 Phone: +63 (977) 108 7317\n📧 Email: lc@lccdo.edu.ph Office Hours: Monday to Friday 8:00 AM to 5PM - Saturday 8AM - 12NN'
     }
 };
