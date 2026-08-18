@@ -58,7 +58,7 @@ Problem 4: There is no centralized, automated inquiry system that provides immed
     requirements: {
         keywords: ['requirements', 'requirement', 'needed', 'need', 'necessary', 'document', 'documents'],
         response: 'Admission requirements include: 
-            1) Completed application form,\n2) Birth certificate,\n3) Previous school report card,\n4) Vaccination records,\n5) Parent/Guardian identification.\nAdditional requirements may apply based on grade level.'
+            1) Completed application form,\n2) Birth certificate,\n3) Previous school report card,\n4) Vaccination records,\n5).'
     },
     vision: {
         keywords: ['Vision', 'vision'],
