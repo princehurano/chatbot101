@@ -417,7 +417,7 @@ window.addEventListener('load', () => {
 
 // Welcome Message 
 window.addEventListener('load', () => {
-    const welcomeText = 'Good Day! This a Developed Keyword Web-based School Information Chatbot made by the TVL-ICT Researchers. How may I help you?';
+    const welcomeText = 'Good Day! This a Developed Keyword Web-based School Information Chatbot made by the TVL-ICT Researchers.    How may I help you?';
 
     const typingDiv = showTypingIndicator();
 
