@@ -42,9 +42,9 @@ const keywordResponses = {
     },
     about: {
         keywords: ['about', 'About'],
-        response: `This is a DESIGN AND DEVELOPMENT OF A KEYWORD-BASED CHATBOT FOR SCHOOL INQUIRIES.
+        response: `This is a DESIGN AND DEVELOPMENT OF A KEYWORD WEB-BASED SCHOOL INFORMATION CHATBOT FOR SCHOOL INQUIRIES.
         
-        Mao ni nga problems akong nakita that's why I think of this 
+        These are the problems that we've observed, and that's why we made this:
 
 Problem 1: Students have difficulty obtaining school information quickly, especially outside office hours.
 
@@ -57,7 +57,14 @@ Problem 4: There is no centralized, automated inquiry system that provides immed
 
     requirements: {
         keywords: ['requirements', 'requirement', 'needed', 'need', 'necessary', 'document', 'documents'],
-        response: 'Admission requirements include: 1) Completed application form, 2) Birth certificate, 3) Previous school report card, 4) Vaccination records, 5) Parent/guardian identification. Additional requirements may apply based on grade level.'
+        response: 'Admission requirements include: 
+            1) Completed application form,
+            2) Birth certificate, 
+            3) Previous school report card, 
+            4) Vaccination records, 
+            5) Parent/guardian identification. 
+            
+            Additional requirements may apply based on grade level.'
     },
     vision: {
         keywords: ['Vision', 'vision'],
