@@ -18,7 +18,7 @@ const keywordResponses = {
     },
     schedule: {
         keywords: ['schedule', 'class', 'timetable', 'timing', 'hours', 'time'],
-        response: 'School hours are 8:00 AM to 5 PM, Monday through Friday. Classes run in 45-minute periods with a 30-minute lunch break at noon. Special schedules apply on Fridays when early dismissal is at 2:40 PM. Any other scheduling questions?'
+        response: 'School hours are 7:30 AM to 3:20 PM, depending on what strand you are, and it is Monday through Friday. Classes run in 50-minute periods with a 1 hour lunch break at noon. Any other scheduling questions?'
     },
     registrar: {
         keywords: ['registrar', 'records', 'transcript', 'certificate', 'document'],
